@@ -8,7 +8,7 @@ public class TampilElemenTangga {
             for (int j = 0; j < kolom; j++) {
                 System.out.print(" ");
             }
-            for (int j = 0; j < (5 - kolom); j++) {
+            for (int j = 0; j < (baris - kolom); j++) {
                 System.out.print(huruf);
                 huruf++;
             }
