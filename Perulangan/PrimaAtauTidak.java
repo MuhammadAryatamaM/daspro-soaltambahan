@@ -3,10 +3,10 @@ public class PrimaAtauTidak {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Masukkan bilangan: ");
+        System.out.print("Masukkan bilangan (lebih dari 1): ");
         int angka = sc.nextInt();
 
-        if (angka == 2 || angka == 1) {
+        if (angka == 2) {
             System.out.println("Bilangan prima");
             return;
         }
